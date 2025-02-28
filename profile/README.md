@@ -1,4 +1,11 @@
+
+![banner](https://github.com/user-attachments/assets/7c7e9939-a15c-4cc1-90b0-ffa8d7d51996)
+
 # COMP08101 - Programming for Cyber
+
+The repositories here contain sample code and worked examples from the weekly labs. The repositories contain code formatted for PyCharm, individual scripts might require additional modules to be installed via Anaconda.
+
+**These repositories and their contents should remain private!** 
 
 ## Aims and Objectives
 
@@ -34,12 +41,20 @@ the tasks will be included within the portfolio which makes up the final mark.
 
 The unit is very practical. The results are measured by a portfolio (40%) and the production
 of a tool (60%). A selection of tasks from the weekly labs will be selected to be included in 
-the portfolio. The code in this project is from the labs so can not be shared with the students.
+the portfolio. 
+
 
 ## Environment
 
-Some of the labs require a plain Python installation. Other labs require the use of external
-modules. UWS suggest that Anaconda is used as an environment for development with a suggested
+![image](https://github.com/user-attachments/assets/22444843-d78e-4a4c-9068-8ee71407ccc3)
+Development language is Python. The suggested development environment is [Pycharm](https://www.bing.com/ck/a?!&&p=5884d82a0aed981a9ef6347fe2a632a1c20124229f6802ee109ddbae2ae58891JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=pycharm&u=a1aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9weWNoYXJtLw&ntb=1). UWS suggest the use of PyCharm Professional for the unit. Instructions are provided to connect to the 
+UWS licence server. PyCharm Community Edition 2024 has proven to be sufficient for the unit. The only
+advantage of the Professional edition would be the inclusion of Jupyter Notebooks, but none of these
+have been supplied for the unit. If required these could be opened in Visual Studio Code with minimum
+effort. Some of the labs require a plain Python installation. Other labs require the use of external modules which can be installed via Anaconda.
+
+![image](https://github.com/user-attachments/assets/ce55d38d-abff-4ee4-bf42-2a641125f753)
+UWS suggest that [Anaconda](https://www.anaconda.com/download) is used as an environment for development, with a suggested
 env name of P4CS. MiniConda works just as well as the full Anaconda installation, you just need
 to be comfortable using the command line. 
 
@@ -63,8 +78,4 @@ newer version (2.6.1) had to be downloaded. The command to do this is,
 
 AY 2024/25 There were many problems found while using SCAPY, the above update fixed some but not all. Installing nmap seemed to solve all the remaining issues. The latest version can be found here [NMAP](https://www.bing.com/ck/a?!&&p=37cf78f77879e95f5616f04a5bda2fccb614a2297711433ffcdc3861b470a9b9JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=nmap&u=a1aHR0cHM6Ly9ubWFwLm9yZy8&ntb=1).
 
-UWS suggest the use of PyCharm Professional for the unit. Instructions are provided to connect to the 
-UWS licence server. PyCharm Community Edition 2024 has proven to be sufficient for the unit. The only
-advantage of the Professional edition would be the inclusion of Jupyter Notebooks, but none of these
-have been supplied for the unit. If required these could be opened in Visual Studio Code with minimum
-effort.
+
