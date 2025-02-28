@@ -59,6 +59,10 @@ newer version (2.6.1) had to be downloaded. The command to do this is,
 
 `conda install -c conda-forge scapy --force-reinstall`
 
+![image](https://github.com/user-attachments/assets/34584181-e863-4559-8ab0-461c946c73b0) 
+
+AY 2024/25 There were many problems found while using SCAPY, the above update fixed some but not all. Installing nmap seemed to solve all the remaining issues. The latest version can be found here [NMAP](https://www.bing.com/ck/a?!&&p=37cf78f77879e95f5616f04a5bda2fccb614a2297711433ffcdc3861b470a9b9JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=nmap&u=a1aHR0cHM6Ly9ubWFwLm9yZy8&ntb=1).
+
 UWS suggest the use of PyCharm Professional for the unit. Instructions are provided to connect to the 
 UWS licence server. PyCharm Community Edition 2024 has proven to be sufficient for the unit. The only
 advantage of the Professional edition would be the inclusion of Jupyter Notebooks, but none of these
