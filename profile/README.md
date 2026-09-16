@@ -3,7 +3,9 @@
 
 # COMP08101 - Programming for Cyber
 
-The repositories here contain sample code and worked examples from the weekly labs. The repositories contain code formatted for PyCharm, individual scripts might require additional modules to be installed via Anaconda.
+# UWS is rewriting the content for this year so much is expected to be changed or updated.
+
+The repositories here contain sample code and worked examples from the weekly labs. The repositories contain code formatted for Visual Studio Code, individual scripts might require additional modules to be installed to your Python venv.
 
 **These repositories and their contents should remain private!** 
 
@@ -47,22 +49,9 @@ the portfolio.
 ## Environment
 
 ![image](https://github.com/user-attachments/assets/22444843-d78e-4a4c-9068-8ee71407ccc3)
-Development language is Python. The suggested development environment is [Pycharm](https://www.bing.com/ck/a?!&&p=5884d82a0aed981a9ef6347fe2a632a1c20124229f6802ee109ddbae2ae58891JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=pycharm&u=a1aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9weWNoYXJtLw&ntb=1). UWS suggest the use of PyCharm Professional for the unit. Instructions are provided to connect to the 
-UWS licence server. PyCharm Community Edition 2024 has proven to be sufficient for the unit. The only
-advantage of the Professional edition would be the inclusion of Jupyter Notebooks, but none of these
-have been supplied for the unit. If required these could be opened in Visual Studio Code with minimum
-effort. Some of the labs require a plain Python installation. Other labs require the use of external modules which can be installed via Anaconda.
+Development language is Python. The suggested development environment is [Visual Studio Code](https://www.bing.com/ck/a?!&&p=5884d82a0aed981a9ef6347fe2a632a1c20124229f6802ee109ddbae2ae58891JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=pycharm&u=a1aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9weWNoYXJtLw&ntb=1). 
 
-![image](https://github.com/user-attachments/assets/ce55d38d-abff-4ee4-bf42-2a641125f753)
-UWS suggest that [Anaconda](https://www.anaconda.com/download) is used as an environment for development, with a suggested
-env name of P4CS. MiniConda works just as well as the full Anaconda installation, you just need
-to be comfortable using the command line. 
-
-Note: AY 2024/25 - The Anaconda Prompt worked for the lecturer but the didn't for the students.
-UWS documentation says that Anaconda Powershell won't work but students had no issue using this on 
-the college computers. 
-
-The following packages are required,
+The following packages are required they should be installed in a venv dedicated to this unit. 
 - requests
 - beautifulsoup4
 - scapy*
