@@ -3,11 +3,7 @@
 
 # COMP08101 - Programming for Cyber
 
-# UWS is rewriting the content for this year so much is expected to be changed or updated.
-
-The repositories here contain sample code and worked examples from the weekly labs. The repositories contain code formatted for Visual Studio Code, individual scripts might require additional modules to be installed to your Python venv.
-
-**These repositories and their contents should remain private!** 
+The repository here contains sample code and worked examples from the weekly classes. The repositories contain code formatted for Visual Studio Code, individual scripts might require additional modules to be installed to your Python venv. 
 
 ## Aims and Objectives
 
@@ -23,17 +19,17 @@ the tasks will be included within the portfolio which makes up the final mark.
 
 | Week | Activity                                                |
 |------|---------------------------------------------------------|
-| 1    | Introduction and setup                                  | 
-| 2    | Introductory concepts                                   |
-| 3    | Strings and collections                                 |
-| 4    | Functions (hashes, Ceasar cipher)                       |
-| 5    | Files access                                            |
-| 6    | Command line parameters                                 |
-| 7    | Optimisation and Efficiency                             |
-| 8    | Scripts to automate cyber security (packet examination) |
-| 9    | Scripts to automate cyber security (port scanning)      |
-| 10   | Web scraping (beautiful soup)                           |
-| 11   | Regular expressions                                     |
+| 1    | Introduction and Development Environment Setup                                   | 
+| 2    | Python Programming Fundamentals                                   |
+| 3    | Strings and Python Libraries                                 |
+| 4    | Functions and Exception Handling                       |
+| 5    | Data Structures and Modules                                            |
+| 6    | Version Control with Git and GitHub                                 |
+| 7    | File Processing and Regular Expressions                             |
+| 8    | APIs and Web Data Processing |
+| 9    | AI-Assisted Software Development      |
+| 10-12  | Mini Project Planning and Tool Development                          |
+| 13   | Coursework 2 Assessment: Mini Project demonstration and oral QnA                                     |
 
 
 
@@ -48,23 +44,23 @@ the portfolio.
 
 ## Environment
 
-![image](https://github.com/user-attachments/assets/22444843-d78e-4a4c-9068-8ee71407ccc3)
+<img width="150" height="150" alt="visual-studio-code-logo-rounded-free-png" src="https://github.com/user-attachments/assets/f96609f3-dff4-4c0c-a504-df4a951ab31f" />
+
+
 Development language is Python. The suggested development environment is [Visual Studio Code](https://www.bing.com/ck/a?!&&p=5884d82a0aed981a9ef6347fe2a632a1c20124229f6802ee109ddbae2ae58891JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=pycharm&u=a1aHR0cHM6Ly93d3cuamV0YnJhaW5zLmNvbS9weWNoYXJtLw&ntb=1). 
 
-The following packages are required they should be installed in a venv dedicated to this unit. 
+The following packages are suggested. Packages used should be installed in a 'venv' dedicated to this unit. 
 - requests
 - beautifulsoup4
-- scapy*
+- scapy
 - matplotlib
 - dnspython
 
-*scapy. The version (2.4.3) that installed through Anaconda didn't include everything required for the labs. A
-newer version (2.6.1) had to be downloaded. The command to do this is, 
 
-`conda install -c conda-forge scapy --force-reinstall`
 
 ![image](https://github.com/user-attachments/assets/34584181-e863-4559-8ab0-461c946c73b0) 
 
-Not mentioned in UWS documentation but for some code to run nmap is required. The latest version can be found here [NMAP](https://www.bing.com/ck/a?!&&p=37cf78f77879e95f5616f04a5bda2fccb614a2297711433ffcdc3861b470a9b9JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=nmap&u=a1aHR0cHM6Ly9ubWFwLm9yZy8&ntb=1).
+Some cyber related packages require nmap to be installed. If code is run without nmap present on the system the error is not obvious. Check the documentation for the package to see if it required nmap.
+[nmap](https://www.bing.com/ck/a?!&&p=37cf78f77879e95f5616f04a5bda2fccb614a2297711433ffcdc3861b470a9b9JmltdHM9MTc0MDcwMDgwMA&ptn=3&ver=2&hsh=4&fclid=06a5893f-ee71-6ff8-1d3f-9cbaef0b6efc&psq=nmap&u=a1aHR0cHM6Ly9ubWFwLm9yZy8&ntb=1).
 
 
